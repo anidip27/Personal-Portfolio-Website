@@ -29,7 +29,7 @@ nav{
     flex-wrap: wrap;
 }
 .logo{
-    width: 170px;
+    width: 160px;
 }
 nav ul li{
     display: inline-block;
@@ -60,7 +60,7 @@ nav ul li a:hover::after{
     font-size: 30px;
 }
 .header-text h1{
-    font-size: 55px;
+    font-size: 50px;
     margin-top: 20px;
 }
 .header-text h1 span{
@@ -305,11 +305,12 @@ nav .fa-regular{
         background-image: url(images/background3.png);
     }
     .header-text{
-        margin-top: 100%;
-        font-size: 16px;
+        margin-top: 15%;
+        font-size: 20px;
     }
     .header-text h1{
-        font-size: 30px;
+        font-size: 25px;
+        margin-top: 25px;
     }
     nav .fa-regular{
         display: block;
