@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset ="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1a29991f71.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+<div class="container">
+    <nav>
+        <img src="images/logo.png" class="logo">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#Certificates">Portfolio</a></li>
+            <li><a href="#portfolio">Certificates</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+        <p>Web Developer/Designer</p>
+        <h1>Hi, I'm <span>Anidip Bhattacharya</span><br>from Kolkata,India.</h1>
+    </div>
+</div>
+<br></br>
+</body>
+</html>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user4.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hi,I'm Anidip Bhattacharya and I'm currently an UnderGraduate student
+                    pursuing Bachelor of Technology degree. From my school days I have been very
+                    interested in Technology.Recently upon researching about the current trends 
+                    in tech, i have came to this conclusion that Web Development is a really industry
+                    leading skill right now,for any software developer. Though I'm new to this 
+                    Web Development domain, I'm a quick learner and even though I have a lot to learn,
+                    I feel i will learn and gain expertise in this domain in no time.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills </p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience </p>
+                        <p class="tab-links" onclick="opentab('education')">Education </p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Designing websites and webpages.</li>
+                            <li><span>Backend Java</span><br>Java backend development of any website/webpage.</li>
+                            <li><span>AI Machine Learning</span><br>Building AI based Machine Learning models. </li>
+                            <li><span>SQL DBMS</span><br> Database creation,modification,maintainance and deletion. </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022-2022</span><br>High Radius Internship. </li>
+                            <li><span>2021-2021</span><br>Google Developers & ShapeAI Training.</li>
+                            <li><span>2021-2021</span><br> UC SanDiego Course. </li>
+                            <li><span>2021-2021</span><br> University of Michigan Course.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2017</span><br>Class 10 from Aditya Academy Secondary CBSE, Kolkata.</li>
+                            <li><span>2019</span><br>Class 12 from Aditya Academy Secondary CBSE, Kolkata.</li>
+                            <li><span>2023</span><br>B.Tech from Narula Institute of Technology MAKAUT,Kolkata.</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------------bnbb--------------------->
+<div id="Certificates">
+    <div class="container">
+        <h1 class="sub-title">My Portfolio</h1>
+        <div class="Certificates-list">
+            <div>
+                <i class="fa-regular fa-star"></i>
+                <h2> High Radius Internship 2022 </h2>
+                <p> Product Engineering on AI-Enabled FinTech B2B Invoice
+                    Management WebApplication.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-trophy"></i>
+                <h2> Project Demonstration of SIH Workshop NiT 2022 </h2>
+                <p>Demonstration and presentation of SIH 2022 winning poject.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-trophy"></i>
+                <h2> 2nd Runner up of SIH 2022</h2>
+                <p>Winning the position of 2nd Runner Up for Team Resonance22 on SIH 2022.</p>
+            </div>
+            <div>
+                <i class="fa-regular fa-star"></i>
+                <h2> Internal Hackathon NiT 2022 </h2>
+                <p> Presentation of project in SIH 2022 internal hackathon.</p>
+            </div>
+                <div>
+                    <i class="fa-regular fa-star"></i>
+                    <h2> Vocational Training at Indian Railways 2022 </h2>
+                    <p> A 3 week on field vocational training of overhead lines at Indian Raiways.</p>
+                </div>
+                <div>
+                <i class="fa-solid fa-certificate"></i>
+                <h2> Coursera JAVA Course 2021 </h2>
+                <p>Successfully completed online course on Java Programming basics.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-certificate"></i>
+                <h2> University of Michigan Course 2021 </h2>
+                <p> Successfully completed online course on Python Programming .</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-certificate"></i>
+                <h2> UC SanDiego Course 2021 </h2>
+                <p> Successfully completed online course on Algorithmic Toolbox</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-certificate"></i>
+                <h2>Workshop of BBPIMT 2021</h2>
+                <p> Participation on Technology Support and Mass Awareness
+                    for Prevention of Lightning Casualties.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-certificate"></i>
+                <h2> MHRD prototype validation 2021</h2>
+                <p>Seminar on prototype validation.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-certificate"></i>
+                <h2>Google developers GDG Ranchi 2021 </h2>
+                <p> Bootcamp on machine learning</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-certificate"></i>
+                <h2> ShapeAI with Developer Student Club Training 2021</h2>
+                <p> Bootcamp on Python Machine Learning.</p>
+            </div>
+            <div>
+                <i class="fa-regular fa-star"></i>
+                <h2> Cancer Awareness Program NiT 2021 </h2>
+                <p> Online cancer awareness program on world cancer day 03.02.2021.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-certificate"></i>
+                <h2> Energy Swaraj Foundation energy literacy course 2020 </h2>
+                <p> Certificate of course learning on designing own solar home system.</p>
+            </div>
+            <div>
+                <i class="fa-regular fa-star"></i>
+                <h2> Student Solar Ambassador Workshop 2019 </h2>
+                <p> Building a Solar lamp.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------portfolio-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Certificates</h1>
+<div class="work-list">
+    <div class="work">
+        <img src="images/certificate1.png">
+        <div class="layer">
+            <i class="fa-regular fa-star"></i> <h3> Project Demonstration of SIH Workshop NiT 2022 </h3>
+                <p>Demonstration and presentation of SIH 2022 winning poject.</p> 
+        </div>
+    </div>
+    <div class="work">
+        <img src="images/certificate2.png">
+        <div class="layer">
+            <i class="fa-solid fa-certificate"></i> <h3> UC SanDiego Course 2021 </h3>
+                <p> Successfully completed online course on Algorithmic Toolbox</p> 
+        </div>
+    </div>
+    <div class="work">
+        <img src="images/certificate3.png">
+        <div class="layer">
+        <i class="fa-solid fa-certificate"></i><h3>  Developer Student Club Training 2021 </h3>
+        <p> Bootcamp on Python Machine Learning.</p>
+    </div>
+    </div>
+    <div class="work">
+        <img src="images/certificate4.png">
+        <div class="layer">
+        <i class="fa-regular fa-star"></i> <h3> Cancer Awareness Program NiT 2021  </h3> 
+        <p>Online cancer awareness program on world cancer day 03.02.2021. .</p>
+    </div>
+</div>
+        <div class="work">
+              <img src="images/certificate5.png">
+              <div class="layer">
+              <i class="fa-solid fa-certificate"></i> <h3> University of Michigan Course 2021  </h3>
+              <p> Successfully completed online course on Python Programming.</p>
+            </div>
+        </div>
+              <div class="work">
+                 <img src="images/certificate6.png">
+                 <div class="layer">
+                 <i class="fa-solid fa-certificate"></i> <h3>Workshop of BBPIMT 2021</h3>
+            <p> Participation on Technology Support and Mass Awareness
+                for Prevention of Lightning Casualties.</p>
+            </div>
+        </div>
+                <div class="work">
+                    <img src="images/certificate7.png">
+                    <div class="layer">
+                    <i class="fa-solid fa-certificate"></i><h3>Google developers GDG Ranchi 2021 </h3>
+                    <p> Bootcamp on machine learning</p>
+                </div>
+            </div>
+                    <div class="work">
+                        <img src="images/certificate8.png">
+                        <div class="layer">
+                        <i class="fa-solid fa-certificate"></i><h3> Coursera JAVA Course 2021 </h3>
+                        <p>Successfully completed online course on Java Programming basics.</p>
+                    </div>
+                </div>
+                        <div class="work">
+                            <img src="images/certificate9.png">
+                            <div class="layer">
+                            <i class="fa-solid fa-certificate"></i> <h3> Energy Swaraj Foundation energy literacy course 2020 </h3>
+                            <p> Certificate of course learning on designing own solar home system.</p>
+                        </div>
+                    </div>
+                            <div class="work">
+                                <img src="images/certificate10.png">
+                                <div class="layer">
+                                <i class="fa-solid fa-certificate"></i> <h3> Student Solar Ambassador Workshop 2019 </h3>
+                                <p> Building a Solar lamp.</p>
+                            </div>
+                        </div>
+                                <div class="work">
+                                    <img src="images/certificate11.png">
+                                    <div class="layer">
+                                    <i class="fa-solid fa-certificate"></i> <h3> ShapeAI </h3>
+                                    <p> Bootcamp on Python Machine Learning.</p>
+                                </div>
+                            </div>
+                                    <div class="work">
+                                        <img src="images/certificate12.png">
+                                        <div class="layer">
+                                        <i class="fa-regular fa-star"></i> <h3> Internal Hackathon NiT 2022 </h3>
+                                        <p> Presentation of project in SIH 2022 internal hackathon.</p>
+                                    </div>
+                                </div>
+                                        <div class="work">
+                                            <img src="images/certificate13.png">
+                                            <div class="layer">
+                                            <i class="fa-solid fa-certificate"></i> <h3> MHRD prototype validation 2021</h3>
+                                                <p>Seminar on prototype validation.</p>
+                                        </div>
+                                    </div>
+                                            <div class="work">
+                                                <img src="images/certificate14.png">
+                                                <div class="layer">
+                                                <i class="fa-solid fa-certificate"></i> <h3>High Radius Internship 2022 </h3>
+                                                    <p> Product Engineering on AI-Enabled FinTech B2B Invoice
+                                                        Management WebApplication.</p>
+                                            </div>
+                                        </div>
+                                    <div class="work">
+                                        <img src="images/certificate15.png">
+                                        <div class="layer">
+                                            <i class="fa-solid fa-trophy"></i> <h3>Smart India Hackathon Grand Finalist 2022 </h3>
+                                            <p> Getting selected for Smart India Hackathon 2022 Grand Finale.</p>
+                                    </div>
+                                </div>
+                            <div class="work">
+                                <img src="images/certificate16.png">
+                                <div class="layer">
+                                    <i class="fa-regular fa-star"></i> <h3>Vocational Training at indian Railways 2022 </h3>
+                                    <p>A 3 week on field vocational training of overhead lines system of the Indian Railways.</p>
+                            </div>
+                        </div>
+                    <div class="work">
+                        <img src="images/certificate17.png">
+                        <div class="layer">
+                            <i class="fa-solid fa-trophy"></i></i> <h3>2nd Runner-Up of SIH  2022 </h3>
+                            <p> Winning the 2nd runner-up position of SIH 2022.</p>
+                    </div>
+                </div>
+    </div>
+    </div>
+</div>
+<!-------------------contact------------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-at"></i>anidipbhattacharya@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/anidip-bhattacharya-39b634269/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100081170502803&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://instagram.com/_userishappy_?igshid=MGNiNDI5ZTU="><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="images/" download class="btn btn2"> Download CV</a>
+ </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email " required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @Anidip Bhattacharya.<i class="fa-solid fa-heart-circle-check"></i></p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+        }
+</script>
+
+<script>
+var sidemenu=document.getElementById("sidemenu")
+function openmenu(){
+    sidemenu.style.right="0";
+}
+function closemenu(){
+    sidemenu.style.right="-200px";
+}
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw7Tslr2LCh5cOVwZa9xR4hn1A9snzUsjGuRF_ioGHKSg8ncl48W9ULe1lM-zPwDP_F/exec'
+    const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
